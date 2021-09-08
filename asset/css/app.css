@@ -1,0 +1,305 @@
+#header img{
+    width:216px
+}
+.bg-dark-black{
+    background-color:rgb(0 0 0 / 82%)
+}
+[class^="icon-"]:before,[class*="icon-"]:before{
+    position:relative;
+    font-size:1.8em
+}
+/*#header a{
+    color:white
+}*/
+#main .carousel-inner img{
+    max-height:100vH;
+    object-fit:cover
+}
+#carousel{
+    position:relative
+}
+#carousel .overlay{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,.5);
+    color:white;
+    z-index:2;
+    text-align:center
+}
+#carousel .overlay .container,#carousel .overlay .row{
+    height:100%
+}
+h5.footext{
+    padding-bottom:50px
+}
+#historia p{
+    font-size:.83em
+}
+#historia img{
+    max-width:100%
+}
+#gallery img{
+    width:100%;
+    height:250px
+}
+.card-body{
+    padding:0.5rem!important
+}
+.card{
+    border:none!important
+}
+#counter{
+    background-image:url(../img/principal1.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:40px;
+    padding-bottom:40px;
+    max-width: 100%;
+   
+}
+.container-fluid.topcounter{
+    margin-top:150px;
+    margin-bottom:150px
+}
+p.counter{
+    color:white;
+    font-family:'Montserrat',sans-serif;
+    font-size:40px;
+    margin-bottom:0
+}
+.counter-title{
+    color:white;
+    font-size:2em;
+    font-weight:400;
+    margin-top:5px;
+    margin-bottom:10px;
+    text-align:center
+}
+.icon-box{
+    color:#fff
+}
+#map{
+    padding:0
+}
+.zoom{
+    transition:transform .5s
+}
+.zoom:hover{
+    transform:scale(1.5)
+}
+#opening{
+    height:100vh;
+    background-image:url(../img/local.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:50px;
+    padding-bottom:20px
+}
+.minh-100{
+    margin:150px;
+    margin-left:auto;
+    margin-right:auto
+}
+.col-xs-12.opening-box{
+    background:#343a40a8;
+    text-align:center;
+    width:90%;
+    float:none;
+    margin:0 auto;
+    padding:30px 0
+}
+.text-open.open-title.space-bottom-30{
+    color:#DFAB2D!important;
+    font-size:2rem!important;
+    font-family:'Pacifico',cursive
+}
+.page-header{
+    font-size:30px;
+    font-weight:700;
+    border:none;
+    margin-bottom:30px
+}
+.text-header{
+    color:#DFAB2D;
+    font-size:1.5em;
+    font-family:'Pacifico',cursive
+}
+.sub-title{
+    font-size:1em;
+    font-weight:700
+}
+p.Abierto{
+    font-size:1.5em;
+    font-family:'Alfa Slab One',cursive;
+    color:white;
+    letter-spacing:.3em
+}
+.text-reserva{
+    font-size:1.5em;
+    font-weight:500;
+    /*background-color:#DFAB2D;*/
+    text-decoration:none
+}
+h1.especialidades{
+    text-align:center;
+    color:#DFAB2D;
+    font-family:'Alfa Slab One',cursive;
+    font-size:32px;
+    padding-top:20px
+}
+h3.text-menu{
+    text-align:center;
+    color:#DFAB2D;
+    font-family:'Alfa Slab One',cursive;
+    font-size:32px
+}
+h5.text-platillo{
+    color:white!important;
+    margin-top:30px;
+    font-size:20px
+}
+p.text-ingrediente{
+    color:lightslategray!important;
+    font-size:13px
+}
+.food-price{
+    float:right;
+    color:#DFAB2D!important
+}
+.separator-line{
+    max-width:60px;
+    height:2px;
+    text-align:center;
+    background:#ebebeb;
+    margin:0 auto
+}
+a.btn.btn-food{
+    background-color:#DFAB2D
+}
+.space-top{
+    margin-top:30px
+}
+.medium-spacing{
+    margin-top:15px!important;
+    margin-bottom:15px!important
+}
+.primary-bg-color{
+    background-color:#bc9d4b!important
+}
+.coment-hero{
+    font-family:'Raleway',sans-serif;
+    font-weight:700;
+    font-size:2em
+}
+.container a{
+    color:white;
+    text-decoration:none
+}
+.text-trinys{
+    color:#F91738!important
+}
+.btn-trinys{
+    background-color:#dfab2d;
+    color:white
+}
+.btn-trinys:hover{
+    background-color:#dfab2d
+}
+.menu{
+    background-image:url(../img/fondomenu.jpg);
+    background-position:center;
+    background-size:cover;
+    padding-top:20px;
+    padding-bottom:80px
+}
+.menu img{
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto
+}
+.menu-img{
+    max-width:200px;
+    margin-bottom:30px;
+    text-align:center;
+    display:block
+}
+.count-title{
+    font-size:40px;
+    font-weight:400;
+    margin-top:10px;
+    margin-bottom:0;
+    text-align:center
+}
+.count-text{
+    font-size:23px;
+    font-weight:400;
+    margin-top:10px;
+    margin-bottom:60px;
+    text-align:center
+}
+.fa-2x{
+    margin:0 auto;
+    float:none;
+    display:table;
+    color:white
+}
+.text-center-counter{
+    text-align:center;
+    padding-bottom:40px;
+    color:white;
+    font-weight:700
+}
+.contador-subtitulo{
+    color:white;
+    font-family:"raleway",cursive;
+    font-weight:700
+}
+h3.text-galeria{
+    color:#003c1a;
+    font-family:'Alfa Slab One',cursive;
+    font-weight:700;
+    font-size:2em
+}
+footer{
+    display:block;
+    text-align:center;
+    background-color:#003c1a;
+    padding-top:20px;
+    color:white
+}
+ul.foo-icons{
+    list-style:none;
+    padding-top:30px
+}
+li.li-cons{
+    display:inline-flex;
+    padding-right:1.5em
+}
+footer a{
+    color:white;
+    text-decoration:none
+}
+footer a:hover{
+    color:white;
+    text-decoration:none
+}
+p.footer2{
+    font-size:.9em;
+    margin-top:auto
+}
+hr.divisor{
+    border-color:rgba(255,255,255,.15)
+}
+@media only screen and (min-width:320px) and (max-width:550px){
+    .coment-hero{
+        font-size:1em!important
+    }
+    .btn-trinys{
+        font-size:1em!important
+    }
+}
