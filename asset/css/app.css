@@ -36,7 +36,7 @@ h5.footext{
     padding-bottom:50px
 }
 #historia p{
-    font-size:.83em
+    font-size:.98em
 }
 #historia img{
     max-width:100%
@@ -93,7 +93,7 @@ p.counter{
 }
 #opening{
     height:100vh;
-    background-image:url(../img/local.jpg);
+    background-image:url(../img/fondomenu.jpg);
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -127,6 +127,11 @@ p.counter{
 .text-header{
     color:#DFAB2D;
     font-size:1.5em;
+    font-family:'Pacifico',cursive
+}
+.text-header2{
+    color:rgb(0 60 26);
+    font-size:3.6em;
     font-family:'Pacifico',cursive
 }
 .sub-title{
